@@ -13,9 +13,6 @@ def job = pipelineJob('rundeck/rundeckBuild') {
                     }
                 }
             }
-            triggers {
-                bitbucketPush()
-            }
             scriptPath('build.pipeline')
         }
     }
