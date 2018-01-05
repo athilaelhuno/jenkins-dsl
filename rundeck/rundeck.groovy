@@ -13,7 +13,7 @@ def job = pipelineJob('rundeck/rundeckBuild') {
                     }
                 }
             }
-            scriptPath('build.pipeline')
+            scriptPath('rundeck/rundeckBuild')
         }
     }
 }
